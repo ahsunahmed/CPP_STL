@@ -26,6 +26,7 @@ List Functions:
 
 1. insert()
 	list<int> li;
+	list<int> li1;
 	list<int>::iterator it;
 	it = li.begin();
 	advance(it,3);
