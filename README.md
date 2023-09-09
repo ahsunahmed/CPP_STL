@@ -1,24 +1,24 @@
-# How to Use this C++ STL
+### How to Use These C++ STL
 
 - Learn the STL one by one
-    - It will be wise to start learning from Vector
+- It will be wise to start learning from Vector
 - Practicing the STLs
 - Implementing on CP Problems
 
 
 ### Good Practices in CP with C++
 ##### Use the following code in the heading
-'''cpp
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
-'''
+```
 
-##### Use this codes to make your program faster
-'''cpp
+##### Use these codes to make your program faster
+```cpp
 ios_base::sync_with_stdio(0);
 cin.tie(0);
 cout.tie(0);
-'''
+```
 
 
 ### Best Websites to Practice CP:
