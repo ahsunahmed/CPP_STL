@@ -1,0 +1,44 @@
+============ List ============
+List Declaration:
+list<int> li;
+
+List Functions:
+1. push_back() --- Add elements at last
+2. push_front() --- Add elements at first
+3. pop_back() --- Delete elements from last
+4. pop_front() --- Delete elements from first
+5. front() --- Returns first value
+6. back() --- Returns last value
+7. size() --- Returns the size of the list
+8. clear() --- Clears the list
+9. empty() --- Checks if the list is empty
+10. insert() --- Inserts elements at particular index
+11. erase() --- Deletes particular element at a particular index obtained by iterator
+12. remove() --- Deletes any elements from the list without requiring any index
+13. reverse() --- Reverse the list
+14. sort() --- Sort the list
+15. unique() --- Keep the elements unique staying in a row
+16. swap() --- Swaps the list values
+17. merger() --- Merges two list into one and empty the other list
+18. advance() --- Points to particular index through iterator
+
+
+
+1. insert()
+	list<int> li;
+	list<int>::iterator it;
+	it = li.begin();
+	advance(it,3);
+	li.insert(it,2,1);
+	li.insert(it,1);
+
+2. remove()
+	li.remove(3);
+
+3. unique()
+	li.unique()
+
+4. merger()
+	li.merger(li1)
+
+
