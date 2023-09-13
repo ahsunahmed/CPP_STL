@@ -14,6 +14,7 @@ Functions:
 12. sort() --- Sort a vector in low to high
 13. reverse() --- Reverse a Vector
 14. iteration --- Iterates the whole vector following its memory address and it acts like a pointer
+15. pop_front() --- Deletes the first element
 
 
 Example:
