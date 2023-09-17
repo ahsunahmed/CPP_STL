@@ -1,0 +1,15 @@
+======== Deque ========
+
+	It is same as Vector but provides some extra facilities
+
+	1. push_back()
+	2. push_front()
+	3. front()
+	4. back()
+	5. pop_back()
+	6. pop_front()
+	7. erase()
+	8. empty()
+	9. size()
+	10. insert()
+	11. clear();

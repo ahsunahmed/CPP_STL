@@ -1,0 +1,61 @@
+====== Priority Queue ======
+
+It is also one kind of queue where we can find the top element as the biggest or smallest element present in the queue. There is no front() or  back() function in the queue.
+
+
+1. Declaration
+2. push() ---- It will add new elements in the queue
+3. pop() ---- Deletes the top element from the queue
+4. top() ---- By Default it returns the biggest value in the queue
+5. size() ---- Returns the size of the queue
+6. empty() ---- Checks if it is empty or not
+7. emplace() ---- Works same as push()
+8. swap() ----- Swaps the element between two queues
+9. Printing
+
+
+
+======= Declaration =======
+priority_queue<int> pq;
+
+pq.push(1);
+pq.push(5);
+pq.push(0);
+pq.push(2);
+
+
+====== top() ======
+cout << pq.top() << endl; // It will Print the value 5, as it is the largest value in the queue
+
+We can also print the smallest value and arrange the priority_queue in ascending order.
+
+Process:
+
+priority_queue<int, vector<int>, greater<int>> pq;
+
+pq.push(1);
+pq.push(5);
+pq.push(0);
+pq.push(2);
+
+cout << pq.top() << endl; // Now It will Print the value 0, as it is the smalles value;
+
+No matter, in which order we push the value in a priority_queue, it will arrange the values in ascending or descending order as per our requirements.
+
+
+
+===== Printing =====
+
+while(!pq.empty()){
+	cout << pq.top() << endl;
+	pq.pop();
+}
+
+
+
+
+
+
+
+
+

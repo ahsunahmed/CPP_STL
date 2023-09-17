@@ -1,0 +1,49 @@
+======= QUEUE =======
+It is a Data Structure where we can do the addition and deletion operation in FIFO Method
+
+1. Declaration
+2. push() ---- Add elements in the queue
+3. pop() ---- Deletes elements from the front
+4. size() ---- Return the size of the queue
+5. empty() ---- Return whether the queue is empty or not
+6. front() ---- Return the front element of the queue
+7. back() ---- Return the last element of the queue
+8. emplace() ---- Works as like push() function
+9. swap() ---- Swaps the elements between two queues
+10. Printing
+
+
+===== Declaration:=====
+queue<int> q;
+
+
+====== Printing: ======
+while(!q.empty()){
+	cout<< q.front() << endl;
+	q.pop();
+}
+
+while(q.size()>0){
+	cout<< q.front() << endl;
+	q.pop();
+}
+
+
+====== Swaping ======
+queue<int> q1;
+queue<int> q2;
+
+q1.push(1);
+q1.push(2);
+q1.push(3);
+
+q2.push(4);
+q2.push(5);
+q2.push(6);
+
+q1.swap(q2);
+
+
+
+
+
